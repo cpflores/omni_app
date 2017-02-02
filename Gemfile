@@ -36,6 +36,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+gem 'dotenv-rails', '~> 2.2'
+
+gem 'omniauth-facebook', '~> 4.0'
+gem 'omniauth-twitter', '~> 1.3'
+gem 'omniauth-github', '~> 1.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
